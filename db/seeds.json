@@ -1,52 +1,190 @@
 {
-  "toys": [
+  "students": [
     {
-      "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
-    },
-    {
-      "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
-    },
-    {
-      "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
-    },
-    {
-      "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
-    },
-    {
-      "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
-    },
-    {
-      "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
-    },
-    {
-      "id": 7,
-      "name": "Hamm",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
-    }
+      "name": "Harry Potter",
+      "gender": "male",
+      "house": "Gryffindor",
+      "dateOfBirth": "31-07-1980",
+      "ancestry": "half-blood",
+      "wand": {
+      "wood": "holly",
+      "core": "phoenix feather",
+      "length": 11
+      },
+      "patronus": "stag",
+      "image": "http://hp-api.herokuapp.com/images/harry.jpg"
+      },
+      {
+      "name": "Hermione Granger",
+      "gender": "female",
+      "house": "Gryffindor",
+      "dateOfBirth": "19-09-1979",
+      "ancestry": "muggleborn",
+      "wand": {
+      "wood": "vine",
+      "core": "dragon heartstring",
+      "length": ""
+      },
+      "patronus": "otter",
+      "image": "http://hp-api.herokuapp.com/images/hermione.jpeg"
+      },
+      {
+      "name": "Ron Weasley",
+      "gender": "male",
+      "house": "Gryffindor",
+      "dateOfBirth": "01-03-1980",
+      "ancestry": "pure-blood",
+      "wand": {
+      "wood": "willow",
+      "core": "unicorn tail-hair",
+      "length": 14
+      },
+      "patronus": "Jack Russell terrier",
+      "image": "http://hp-api.herokuapp.com/images/ron.jpg"
+      },
+      {
+      "name": "Draco Malfoy",
+      "gender": "male",
+      "house": "Slytherin",
+      "dateOfBirth": "05-06-1980",
+      "ancestry": "pure-blood",
+      "wand": {
+      "wood": "hawthorn",
+      "core": "unicorn tail-hair",
+      "length": 10
+      },
+      "image": "http://hp-api.herokuapp.com/images/draco.jpg"
+      },
+      {
+      "name": "Cedric Diggory",
+      "gender": "male",
+      "house": "Hufflepuff",
+      "wand": {
+      "wood": "ash",
+      "core": "unicorn hair",
+      "length": 12.25
+      },
+      "image": "http://hp-api.herokuapp.com/images/cedric.png"
+      },
+      {
+      "name": "Cho Chang",
+      "gender": "female",
+      "house": "Ravenclaw",
+      "patronus": "swan",
+      "image": "http://hp-api.herokuapp.com/images/cho.jpg"
+      },
+      {
+      "name": "Neville Longbottom",
+      "gender": "male",
+      "house": "Gryffindor",
+      "dateOfBirth": "30-07-1980",
+      "ancestry": "pure-blood",
+      "wand": {
+      "wood": "cherry",
+      "core": "unicorn tail-hair",
+      "length": 13
+      },
+      "image": "http://hp-api.herokuapp.com/images/neville.jpg"
+      },
+      {
+      "name": "Luna Lovegood",
+      "gender": "female",
+      "house": "Ravenclaw",
+      "dateOfBirth": "13-02-1981",
+      "patronus": "hare",
+      "image": "http://hp-api.herokuapp.com/images/luna.jpg"
+      },
+      {
+      "name": "Ginny Weasley",
+      "gender": "female",
+      "house": "Gryffindor",
+      "dateOfBirth": "11-08-1981",
+      "ancestry": "pure-blood",
+      "wand": {
+      "wood": "yew",
+      "core": "",
+      "length": ""
+      },
+      "patronus": "horse",
+      "image": "http://hp-api.herokuapp.com/images/ginny.jpg"
+      },
+      {
+      "name": "Vincent Crabbe",
+      "gender": "male",
+      "house": "Slytherin",
+      "ancestry": "pure-blood",
+      "image": "http://hp-api.herokuapp.com/images/crabbe.jpg"
+      },
+      {
+      "name": "Gregory Goyle",
+      "gender": "male",
+      "house": "Slytherin",
+      "ancestry": "pure-blood",
+      "image": "http://hp-api.herokuapp.com/images/goyle.jpg"
+      },
+      {
+      "name": "Percy Weasley",
+      "gender": "male",
+      "house": "Gryffindor",
+      "ancestry": "pure-blood"
+      },
+      {
+      "name": "Fred Weasley",
+      "gender": "male",
+      "house": "Gryffindor",
+      "ancestry": "pure-blood"
+      },
+      {
+      "name": "George Weasley",
+      "gender": "male",
+      "house": "Gryffindor"
+      },
+      {
+      "name": "Lee Jordan",
+      "gender": "male",
+      "house": "Gryffindor"
+      },
+      {
+      "name": "Hannah Abbott",
+      "gender": "female",
+      "house": "Hufflepuff"
+      },
+      {
+      "name": "Susan Bones",
+      "gender": "female",
+      "house": "Hufflepuff"
+      },
+      {
+      "name": "Terry Boot",
+      "gender": "male",
+      "house": "Ravenclaw"
+      },
+      {
+      "name": "Mandy Brocklehurst",
+      "gender": "female",
+      "house": "Ravenclaw"
+      },
+      {
+      "name": "Lavender Brown",
+      "gender": "female",
+      "house": "Gryffindor"
+      },
+      {
+      "name": "Millicent Bulstrode",
+      "gender": "female",
+      "house": "Slytherin"
+      },
+      {
+      "name": "Justin Finch-Fletchley",
+      "gender": "male",
+      "house": "Hufflepuff",
+      "ancestry": "muggleborn"
+      },
+      {
+      "name": "Seamus Finnegan",
+      "gender": "male",
+      "house": "Gryffindor",
+      "ancestry": "half-blood"
+      }
   ]
 }
